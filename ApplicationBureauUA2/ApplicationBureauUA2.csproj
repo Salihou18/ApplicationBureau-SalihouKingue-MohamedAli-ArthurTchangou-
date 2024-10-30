@@ -129,5 +129,22 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="labels\bell-badge.png" />
+    <Resource Include="labels\chapeau-de-remise-de-diplome %281%29.png" />
+    <Resource Include="labels\chapeau-de-remise-de-diplome %282%29.png" />
+    <Resource Include="labels\email %281%29.png" />
+    <Resource Include="labels\gender %281%29.png" />
+    <Resource Include="labels\id %281%29.png" />
+    <Resource Include="labels\import %281%29.png" />
+    <Resource Include="labels\key %281%29.png" />
+    <Resource Include="labels\presentation %281%29.png" />
+    <Resource Include="labels\schedule %281%29.png" />
+    <Resource Include="labels\school supplies.png" />
+    <Resource Include="labels\study-time %281%29.png" />
+    <Resource Include="labels\UE Logo-01_1 1.png" />
+    <Resource Include="labels\user %281%29.png" />
+    <Resource Include="labels\view-dashboard-custom %281%29.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
