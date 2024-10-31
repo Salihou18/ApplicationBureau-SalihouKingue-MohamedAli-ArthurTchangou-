@@ -130,6 +130,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <Resource Include="labels\bell-badge.png" />
     <Resource Include="labels\chapeau-de-remise-de-diplome %281%29.png" />
     <Resource Include="labels\chapeau-de-remise-de-diplome %282%29.png" />
@@ -145,6 +146,23 @@
     <Resource Include="labels\UE Logo-01_1 1.png" />
     <Resource Include="labels\user %281%29.png" />
     <Resource Include="labels\view-dashboard-custom %281%29.png" />
+=======
+    <Resource Include="Icons\bell-badge.png" />
+    <Resource Include="Icons\chapeau-de-remise-de-diplome %281%29.png" />
+    <Resource Include="Icons\chapeau-de-remise-de-diplome %282%29.png" />
+    <Resource Include="Icons\email %281%29.png" />
+    <Resource Include="Icons\gender %281%29.png" />
+    <Resource Include="Icons\id %281%29.png" />
+    <Resource Include="Icons\import %281%29.png" />
+    <Resource Include="Icons\key %281%29.png" />
+    <Resource Include="Icons\presentation %281%29.png" />
+    <Resource Include="Icons\schedule %281%29.png" />
+    <Resource Include="Icons\school supplies.png" />
+    <Resource Include="Icons\study-time %281%29.png" />
+    <Resource Include="Icons\UE Logo-01_1 1.png" />
+    <Resource Include="Icons\user %281%29.png" />
+    <Resource Include="Icons\view-dashboard-custom %281%29.png" />
+>>>>>>> MohamedAli
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
