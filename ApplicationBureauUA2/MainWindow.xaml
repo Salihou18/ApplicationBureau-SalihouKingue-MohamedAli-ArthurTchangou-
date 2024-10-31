@@ -21,7 +21,7 @@
             <Label Name="LabelLogin" Content="LOGIN" Margin="0,0,250,0" FontSize="32" FontFamily="Cambria Math" FontWeight="Bold" />
             <Label Name="LabelEmail" Content="Email" FontSize="17" FontFamily="Cambria Math" Margin="0,30,0,0" />
             <Border Height="50" Width="350" HorizontalAlignment="Left" Background="White" CornerRadius="10">
-                <TextBox x:Name="email" Text="Saisir votre Email ici" VerticalAlignment="Center" FontSize="15" BorderBrush="{x:Null}" TextChanged="email_TextChanged"/>
+                <TextBox x:Name="email" Text="Saisir votre Email ici" VerticalAlignment="Center" FontSize="15" BorderBrush="{x:Null}" />
             </Border>
 
           
