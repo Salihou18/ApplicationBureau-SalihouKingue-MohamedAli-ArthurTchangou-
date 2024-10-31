@@ -5,8 +5,43 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ApplicationBureauUA2"
         mc:Ignorable="d"
-        Title="GestionCours" Height="450" Width="800">
+        Title="GestionCours" Height="824" Width="1110" Background="#92B4DA" ResizeMode="NoResize">
     <Grid>
-        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="2.5*" />
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions >
+            <RowDefinition Height="*" />
+            <RowDefinition Height="300" />
+            
+        </Grid.RowDefinitions>
+
+        <StackPanel Grid.RowSpan="2" Grid.Column=" 0" Width="270" Height="780">
+            <Border  Background="White" CornerRadius="50"  Width="270" Height="780">
+                <StackPanel>
+
+                    <Image Source="/Icons/UE Logo-01_1 1.png" Height="200" Width="200" HorizontalAlignment="Center" Margin="0,0,0,0" />
+                    
+                    </StackPanel>
+            </Border>
+
+        </StackPanel>
+
+        <StackPanel Grid.Row="0" Grid.Column="1"  >
+            <Border  Background="White" CornerRadius="50"  Width="780" Height="480" Margin="0,15,15,0">
+                
+            </Border>
+        </StackPanel>
+
+        <StackPanel Grid.Row="1" Grid.Column="1"  >
+            <Border  Background="White" CornerRadius="50"  Width="780" Height="285" Margin="0,0,15,0">
+
+            </Border>
+        </StackPanel>
+
+
+
     </Grid>
 </Window>

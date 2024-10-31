@@ -22,7 +22,8 @@ namespace ApplicationBureauUA2
     {
         public MainWindow()
         {
-            InitializeComponent();
+            InitializeComponent(); 
         }
+
     }
 }

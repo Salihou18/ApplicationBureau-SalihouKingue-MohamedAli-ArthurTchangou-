@@ -76,5 +76,9 @@ namespace ApplicationBureauUA2
             MessageBox.Show("Compte créé avec succès !");
         }
 
+        private void nomUser_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
     }
 }

@@ -45,7 +45,7 @@
                     <Label Content="Création de votre compte" FontSize="18" FontWeight="Bold" HorizontalAlignment="Center" />
 
                     <Label Content="Nom *" />
-                    <TextBox x:Name="nomUser"  Text="Tapez votre nom ici" GotFocus="RemoveText" LostFocus="AddText"  />
+                    <TextBox x:Name="nomUser"  Text="Tapez votre nom ici" GotFocus="RemoveText" LostFocus="AddText" TextChanged="nomUser_TextChanged"  />
 
                     <Label Content="Prénom *" />
                     <TextBox x:Name="prenomUser" Text="Tapez votre prenom ici" GotFocus="RemoveText" LostFocus="AddText"/>
